@@ -56,3 +56,17 @@ h1 {
 	padding: 10px;
 
 }
+
+.navigationwrapper {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px; 
+	 
+}
+
+.navigationbar {
+	text-align: center;
+	
+}
