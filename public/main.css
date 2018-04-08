@@ -1,0 +1,58 @@
+html {
+	font-size: 10px;
+
+	/* Make 1rem = 10px. */
+	font-size: 62.5%; /* 10px / 16px = 0.625 or 62.5% */
+	background-color: silver;
+}
+
+.gallery {
+	text-align: center;
+	font-family: "Helvetica";
+	font-size: 4em;
+	padding: 10px;
+
+}
+
+.image_container{
+	display: inline-block;
+	max-width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 10%; 
+	margin-right: 5%;
+	/*margin-left: 10%;*/
+
+}
+
+.images {
+	max-width: 50%;
+	padding: 2px;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+footer {
+	text-decoration: none;
+
+}
+
+}
+
+.link a:hover {
+	color: red; 
+	text-decoration: underline;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: "Helvetica";
+	font-size: 4em;
+	padding: 10px;
+
+}
