@@ -57,6 +57,11 @@ h1 {
 
 }
 
+h2 {
+	margin: 3%;
+	font-size: 2.5em;
+}
+
 .navigationwrapper {
 	width: 100%;
 	padding: 20px;
@@ -69,4 +74,38 @@ h1 {
 .navigationbar {
 	text-align: center;
 	
+}
+
+.mainwrapper {
+	width: 100%;
+}
+
+.skillwrapper {
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	border-left: 5%;
+	font-size: 1.5em;
+}
+
+.skillwrapper li {
+	padding: 1%;
+	font-family: "Helvetica";
+}
+
+/*.skillbox {
+	float: right;
+	width: 20%; 
+}*/
+
+.interestwrapper {
+	text-align: center;
+	width: 50%;
+	float: right;
+	display: inline-block;
+	font-size: 1.5em;
+}
+.interestwrapper li {
+	padding: 1%;
+	font-family: "Helvetica";
 }

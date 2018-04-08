@@ -10,11 +10,28 @@
 	<h1>Created by Shashike J</h1>
 
 <body>
-	<h2>Skills</h2>
-	<ul>
-		<% @skills.each do |skill| %>
-			<li> <%= skill %> </li>
-		<% end %>
-	</ul>
+	<div class="mainwrapper">
+		<div class="skillwrapper">
+			<nav class="skillbox">
+				<h2>Skills</h2>
+				<ul>
+					<% @skills.each do |skill| %>
+						<li> <%= skill %> </li>
+					<% end %>
+				</ul>
+			</nav>
+		</div>
+		<div class="interestwrapper">
+			<nav class="interestbox">
+				<h2>Interests</h2>
+				<ul>
+					<% @interests.each do |interest| %>
+					<li> <%= interest %> </li>
+					<% end %> 
+				</ul>
+			</nav>
+		</div>
+	</div>
+
 </body>
 </html>
