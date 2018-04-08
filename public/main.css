@@ -76,6 +76,12 @@ h2 {
 	
 }
 
+.navigationbar a {
+	padding: 1%;
+	font-size: 1.5em;
+	
+}
+
 .mainwrapper {
 	width: 100%;
 }
@@ -106,6 +112,16 @@ h2 {
 	font-size: 1.5em;
 }
 .interestwrapper li {
+	padding: 1%;
+	font-family: "Helvetica";
+}
+
+.favwrapper {
+	width: 100%;
+}
+.favlist {
+	text-align: center;
+	font-size: 1.5em;
 	padding: 1%;
 	font-family: "Helvetica";
 }
