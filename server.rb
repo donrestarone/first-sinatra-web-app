@@ -18,5 +18,7 @@ get '/gallery' do
 end 
 
 get '/about-me' do 
+	@skills = ['git', 'HTML', 'CSS', 'Ruby/Rails', 'SQL', 'Responsive Design']
+	@interests = ['Cats', 'Automotive Engineering', 'Music', 'Films', 'Coffee']
 	erb :about_me
 end 
